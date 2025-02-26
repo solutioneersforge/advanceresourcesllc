@@ -614,6 +614,7 @@ body {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
+    background: #0f0f0f 0.55;
 }
 
 .material-catalog img {

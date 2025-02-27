@@ -787,11 +787,11 @@ body {
     position: absolute;
     width: 50%;
     height: 45%;
-    top: 8%;
+    top: 22%;
     left: 6%;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     text-align:left;
     line-height: 2.8rem;
     letter-spacing: 0px;
@@ -846,6 +846,7 @@ body {
     font-size: 1.8rem;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
+   
     &:hover {
         animation-timing-function: ease-out;
     }
@@ -1756,7 +1757,7 @@ body {
 .sixth-container {
     background: url('Images/contactusbg.jpg') no-repeat center center/cover;
     width:100%;
-    height: auto; /* Adjust based on your needs */
+    height: 25rem; /* Adjust based on your needs */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1804,17 +1805,18 @@ body {
 }
 
 /* Contact Button */
+/* Contact Button */
 .contact-btn {
-    width:40%;
-    height: auto;
+    width:214px;
+    height: 49px;
     background-color: #2a75f3;
     color: white;
-    font-size: 0.7rem;
+    font-size: 16px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 50px;
 }
 .contact-btn a{
     text-decoration: none;

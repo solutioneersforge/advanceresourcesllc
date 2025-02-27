@@ -493,22 +493,24 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    height: 330px;
     min-height: auto;
     background-color: #111A36fd;
-    padding: 5%;
     flex-wrap: wrap;
 }
 
 /* Left Side - Text */
 .text-container {
     flex: 1;
-    min-width: 320px; /* Ensures proper spacing */
-    max-width: 50%;
+    width: 50%;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 75px;
+    margin-top:38px;
 }
 
 .text-container h2 {
-    font-size: 3rem;
-    font-weight: 400;
+    font-size: 2.7rem;
+    font-weight: 200;
     color: #f0f0f0;
 }
 
@@ -518,11 +520,12 @@ body {
 }
 
 .text-container h4 {
-    font-size: 1.5rem;
+    font-size: 20px;
     color: #f0f0f0;
     margin-top: 2.5%;
-    width: 90%;
-    text-align: justify;
+    width: 80%;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-weight: 400px;
 }
 
 /* Right Side - Cards */
@@ -531,8 +534,8 @@ body {
     max-width: 50%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     gap: var(--card-gap);
+    margin-top: 65px;
 }
 
 /* Card Styles */
@@ -549,7 +552,6 @@ body {
     color: white;
     background-size: cover;
     background-position: center;
-    padding: 10px;
     text-align: center;
 }
 .card:hover {
@@ -836,7 +838,6 @@ body {
     font-weight: bold;
 }
 
-/* Contact Button */
 .contact-btn {
     width:214px;
     height: 49px;
@@ -847,7 +848,11 @@ body {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 30px;
+}
+.contact-btn a{
+    text-decoration: none;
+    color: white;
 }
 
 .contact-btn:hover {
